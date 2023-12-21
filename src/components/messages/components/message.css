@@ -1,0 +1,44 @@
+
+
+
+.message{
+ height: fit-content;
+ width: 100%;  
+ font-size: 1.25rem;
+ font-weight: 700;
+ font-family: poppins;
+
+}
+
+
+
+.botMessage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0.5rem 0rem;
+    padding: 1rem;
+    border-radius: 0.625rem 0.125rem 0.625rem 0.625rem;
+    background-color: #035A9D;
+    color: #F5F5F5;
+}
+
+.botArabicMessage{
+    justify-content: flex-end;
+}
+
+.botEnglishMessage{
+    justify-content: flex-start;
+}
+
+.userMessage{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.5rem 0rem;
+    padding: 1rem;
+    border-radius: 0.125rem 0.625rem 0.625rem 0.625rem;
+    background-color: #65DA65;
+    color: #333;
+}

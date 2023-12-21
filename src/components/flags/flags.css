@@ -1,0 +1,17 @@
+.flags{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    width: 80%;
+    margin: 0 auto 1rem auto;
+}
+
+.flag{
+    width:64px;
+    height:45px;
+}
+
+.activeFlag{
+    border: 3px solid #035A9D;
+}

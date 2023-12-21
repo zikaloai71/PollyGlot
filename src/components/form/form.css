@@ -1,0 +1,66 @@
+.formWrapper{
+    width: 80%;
+}
+form{
+    position: relative;
+    width: 80%;
+    margin: 1rem auto 1rem auto;
+}
+
+.sendBtn{
+    position: absolute;
+    background-color: transparent;
+    outline:0px;
+    border:0px;
+    cursor: pointer;
+    top:1.4rem;
+    right:0.2rem;
+}
+
+.sendBtn:disabled{
+    cursor: not-allowed;
+    filter: grayscale(100%);
+}
+
+.deleteBtn{
+    position: absolute;
+    background-color: rgb(218, 84, 84);
+    padding:0.5rem;
+    border-radius: 50%;
+    outline:0px;
+    border:0px;
+    cursor: pointer;
+    top:1rem;
+    left: -3rem;
+}
+
+.deleteImage{
+    width: 1.5rem;
+    height: 1.5rem;
+
+}
+
+input{
+    outline:0px;
+    border:0px;
+    border: 1.5px solid #586E88;
+    background-color: #F5F5F5;
+    color: #252F42;
+    border-radius:0.625rem ;
+    font-size: 1.25rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 100%;
+}
+
+.formError{
+    color: #FF0000;
+    background-color: rgb(196, 191, 191);
+    border-radius: 0.625rem;
+    padding: 0.5rem;
+    font-weight: 700;
+    font-family: Poppins;
+    text-align: center;
+    width:70%;
+    margin: 0.5rem auto;
+}

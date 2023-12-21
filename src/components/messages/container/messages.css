@@ -1,0 +1,21 @@
+.messages {
+  width: 90%;
+  padding-right: 3px;
+  overflow-y: scroll;
+  height: 100%;
+}
+
+.messages::-webkit-scrollbar {
+  width: 0.625rem;
+}
+
+.messages::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.messages::-webkit-scrollbar-thumb {
+  background-color: #035a9d;
+  border-radius: 0.625rem;
+}
+
+
