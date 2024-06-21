@@ -1,6 +1,6 @@
 import { create } from "zustand";
 
-type lang = "ar" | "fr" | "es"
+type lang = "ar_AR" | "fr_XX" | "es_XX"
 
 interface LanguageState {
   language: lang
@@ -9,7 +9,7 @@ interface LanguageState {
 
 export const useLanguageStore = create<LanguageState>()(
     (set) => ({
-      language: "ar",
+      language: "ar_AR",
       setLang: (language:lang) => {
         set(() => ({ language: language }));
       }

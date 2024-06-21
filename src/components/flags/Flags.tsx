@@ -14,25 +14,25 @@ export const Flags = () => {
       <img
         src={Arabic}
         alt="arabic language"
-        className={`${language === "ar" && "activeFlag"} flag`}
+        className={`${language === "ar_AR" && "activeFlag"} flag`}
         onClick={() => {
-          setLang("ar");
+          setLang("ar_AR");
         }}
       />
       <img
         src={France}
         alt="french language"
-        className={`${language === "fr" && "activeFlag"} flag`}
+        className={`${language === "fr_XX" && "activeFlag"} flag`}
         onClick={() => {
-          setLang("fr");
+          setLang("fr_XX");
         }}
       />
       <img
         src={Spain}
         alt="spanish language"
-        className={`${language === "es" && "activeFlag"} flag`}
+        className={`${language === "es_XX" && "activeFlag"} flag`}
         onClick={() => {
-          setLang("es");
+          setLang("es_XX");
         }}
       />
     </div>
