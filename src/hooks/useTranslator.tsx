@@ -15,18 +15,17 @@ export const useTranslator = () => {
           }),
         }
       );
-  
       const completion = (await resp.json()) as {
         content: string;
         error: string;
       };
+  
       if (!resp.ok) {
         throw new Error(`Worker Error: ${completion.error}`);
       }
 
       return completion.content;
     } catch (err) {
-      console.log(err);
       return "Sorry I couldn't translate this text";
     }
   }
