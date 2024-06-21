@@ -15,6 +15,7 @@ export const useTranslator = () => {
           }),
         }
       );
+  
       const completion = (await resp.json()) as {
         content: string;
         error: string;
