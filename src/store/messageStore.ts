@@ -4,7 +4,7 @@ import { persist, createJSONStorage } from "zustand/middleware";
 interface message {
   text: string | null;
   type: "user" | "bot";
-  lang: "en" | "ar" | "fr" | "es";
+  lang: "en_XX" | "ar_AR" | "fr_XX" | "es_XX";
 }
 
 interface MessageState {

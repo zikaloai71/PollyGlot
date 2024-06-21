@@ -36,7 +36,7 @@ export const Form = () => {
     setLoading(true);
     setFormError("");
 
-    insertMessage({ type: "user", text: inputRef.current.value, lang: "en" });
+    insertMessage({ type: "user", text: inputRef.current.value, lang: "en_XX" });
 
     translate(language, inputRef.current.value)
       .then((botMessage) => {

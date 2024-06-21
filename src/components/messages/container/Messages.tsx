@@ -26,7 +26,7 @@ useEffect(() => {
  return (
 
     <section className="messages" ref={messagesContainerRef}>
-      <Message text="Select the language you want to translate into, type your text and hit send!" type="bot" lang={"en"}/>
+      <Message text="Select the language you want to translate into, type your text and hit send!" type="bot" lang={"en_XX"}/>
       {
         messages.map((message, index) => (
             <Message key={index} text={message.text} type={message.type} lang={message.lang}/>
